@@ -1,3 +1,10 @@
+/*
+This method implements integer to  roman numeral conversion.
+Reference specification: 
+    1. https://en.wikipedia.org/wiki/Roman_numerals
+    2. https://www.cuemath.com/numbers/roman-numerals/
+*/
+
 export function integerToRoman(integer: number): string {
     if (integer < 1 || integer > 3999) {
         return ""
