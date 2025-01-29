@@ -103,6 +103,9 @@ Once both servers are running:
 * Frontend will be available at http://localhost:3000.
 * Backend will be available at http://localhost:3001.
 
+## App Theme
+Used `window.matchMedia` API to check the OS theme set by the user. An event listener listens to any change in the system theme and changes the same in UI accordingly.
+
 # API Endpoints
 
 GET `/romannumeral?query={integer}`
