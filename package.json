@@ -1,0 +1,11 @@
+{
+    "name": "integer-to-roman",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"npm run start --prefix server\" \"npm run start --prefix client\"",
+        "dev": "concurrently \"npm run dev --prefix server\" \"npm run start --prefix client\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}

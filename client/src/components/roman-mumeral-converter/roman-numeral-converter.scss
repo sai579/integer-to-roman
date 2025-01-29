@@ -1,0 +1,62 @@
+.integer-to-roman-form-contaner {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .header {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    .input-container {
+        display: grid;
+        width: 18rem;
+        align-items: center;
+        gap: 8px;
+        padding: 4rem 4rem 2rem 4rem;
+
+        .input-form {
+            height: 4vh;
+            width: 100%;
+        }
+
+        .input-form-error-state {
+            @extend .input-form;
+            border: 2px solid lightcoral;
+        }
+
+        .input-label {
+            font-size: 18px;
+            font-weight: 500;
+            font-family: sans-serif;
+        }
+    }
+
+    .button {
+        width: 18rem;
+        border-radius: 4rem;
+        height: 2rem;
+        font-size: 16px;
+        font-family: sans-serif;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    .roman-numeral-result {
+        width: 18rem;
+        height: 2rem;
+        font-size: 20px;
+        font-weight: 550;
+        font-family: sans-serif;
+        padding: 2rem;
+    }
+
+    .error-container {
+        color: lightcoral;
+        font-size: 18px;
+    }
+}
